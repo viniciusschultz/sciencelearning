@@ -44,16 +44,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteList:
-  - {fileID: 9046223779889384500, guid: cf554c464077b1a4ea24ccfb71fab530, type: 3}
-  - {fileID: 3117934294007741995, guid: cf554c464077b1a4ea24ccfb71fab530, type: 3}
-  - {fileID: -301320457384346275, guid: cf554c464077b1a4ea24ccfb71fab530, type: 3}
-  - {fileID: 4559495892530554540, guid: cf554c464077b1a4ea24ccfb71fab530, type: 3}
+  - {fileID: -7504069179949068039, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -8217830719069612612, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -824873099305183872, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 3075182115673317487, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -1407619538805533429, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -8262650737998300777, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 8698825797309917782, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -7780809555231516914, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -2041993144474418656, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 811790945147082114, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 48140471201644103, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 2799099643174193923, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 6511888845433042077, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: -6901515623174139571, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 8935457330311376257, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
+  - {fileID: 2462001104909789980, guid: e7323c39023544c40a6bb62c86a299e8, type: 3}
   buttonList: []
   hiddenButtonList: []
   choosen: 0
-  pairs: 4
+  pairs: 8
   cardPrefab: {fileID: 646441837109611368, guid: cec3179904b81d24080b144edf1eff02, type: 3}
   spacer: {fileID: 0}
   matchScore: 100
   choise1: 0
   choise2: 0
+  fxExplosion: {fileID: 3344403666905967321, guid: ebc1eb56572e43b4b8e85170bfd7a53a, type: 3}
+  fxExplosionSquare: {fileID: 4621932789091040553, guid: 363ce94b7ee373f49920b29370a6317d, type: 3}

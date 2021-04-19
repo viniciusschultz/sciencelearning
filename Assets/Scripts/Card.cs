@@ -26,8 +26,6 @@ public class Card : MonoBehaviour
     {   //Inicialização da imagens e dos botões.
         image = GetComponent<Image>();
         button = GetComponent<Button>();
-
-
     }
 
     //Vira a carta através do click
@@ -44,6 +42,15 @@ public class Card : MonoBehaviour
             //Bloqueia o clique sobre uma mesma carta.
             button.interactable = false;
 
+            //Apresenta a dica de onde está a carta a ser combinada.
+            CardManager.instance.ApresentarDica();
+
+            //Registra o tempo da virada da primeira carta
+            CardManager.instance.RegistraTempoPrimeiraCarta();
+
+            //Apresenta a descrição da carta no personagem
+            CardManager.instance.ApresentaDescricaoCartaSelecionada(CardManager.instance.choise1.ToString());
+
         }
         else if (CardManager.instance.choise2 == 0) // Verifica se tem alguma carta apresentada
         {
@@ -58,6 +65,9 @@ public class Card : MonoBehaviour
 
             //Compara as cartas
             StartCoroutine(CardManager.instance.CompareCards());
+
+            //Registra o tempo da virada da segunda carta
+            CardManager.instance.RegistraTempoSegundaCarta();
         }
     }
 
@@ -133,7 +143,6 @@ public class Card : MonoBehaviour
         isFlippingOpen = true;
         StartCoroutine(FlipClose());
     }
-
 }
 
 
